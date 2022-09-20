@@ -1,0 +1,57 @@
+/*em*/
+/*body {
+  font-size: 16px;
+}*/
+
+.box {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: lightgrey;
+}
+
+.box-small {
+  font-size: 12px;
+}
+.box-large {
+  font-size: 18px;
+}
+
+.slogan {
+  font-size: 1.2em;
+  padding: 1.2em;
+  background-color: #ccc;
+}
+/*rem & em*/
+.panel {
+  font-size: 1rem;
+  padding: 1em;
+  border: 1px solid #999;
+  border-radius: 0.5em;
+}
+.panel > h2 {
+  margin-top: 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.panel.large {
+  font-size: 1.2rem;
+}
+/*
+:root {
+  font-size: 0.75em;
+}
+@media (min-width: 800px) {
+  :root {
+    font-size: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    font-size: 1.1em;
+  }
+}
+*/
+:root {
+  font-size: calc(0.5em + 0.75vw);
+}
