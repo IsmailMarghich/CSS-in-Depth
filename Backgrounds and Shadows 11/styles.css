@@ -1,0 +1,27 @@
+.fade {
+  height: 1em;
+  width: 400px;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #57b,
+    #57b 10px,
+    #148 10px,
+    #148 20px
+  );
+  border-radius: 0.3em;
+}
+.button {
+  padding: 0.8em;
+  border: 0;
+  font-size: 1rem;
+  color: white;
+  border-radius: 0.5em;
+  background-color: #57b;
+  box-shadow: 0 0.4em #148;
+  text-shadow: 1px 1px #148;
+}
+.button:active {
+  background-color: #456ab5;
+  transform: translateY(0.1em);
+  box-shadow: 0 0.3em #148;
+}
